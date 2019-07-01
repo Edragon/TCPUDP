@@ -6,7 +6,7 @@ html_str = """
 %s
 """
 
-logging.basicConfig(filename='/var/www/html/server/app2.html', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='/var/www/html/server/app2.html', filemode='w+', format='%(name)s - %(levelname)s - %(message)s')
 
 log = logging.getLogger('udpx')
 

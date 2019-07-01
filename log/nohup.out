@@ -1,0 +1,10 @@
+Listening on 0.0.0.0:9999
+Traceback (most recent call last):
+  File "udp_log.py", line 33, in <module>
+    message, address = server.recvfrom(1024)
+KeyboardInterrupt
+Listening on 0.0.0.0:9999
+Traceback (most recent call last):
+  File "/root/python_tcp/log/udp_log.py", line 33, in <module>
+    message, address = server.recvfrom(1024)
+KeyboardInterrupt
